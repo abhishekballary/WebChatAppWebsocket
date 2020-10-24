@@ -1,5 +1,5 @@
 //Make connection
-
+//Menation your local machine IP address ex: insted of this http://192.168.0.30 to your machine IP 
 let socket = io.connect('http://192.168.0.30:4000')
 
 
