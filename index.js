@@ -53,7 +53,7 @@ function formatAMPM(date) {
   }
 
   (async () => {
-    const tunnel = await localtunnel({ port: 4000 ,subdomain:'linkezchatapp'});
+    const tunnel = await localtunnel({ port: 4000 ,subdomain:'webchatapp'});
     tunnel.url;
     tunnel.on('close', () => {
       // tunnels are closed
